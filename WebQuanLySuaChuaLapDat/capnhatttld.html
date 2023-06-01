@@ -18,23 +18,23 @@
         <div class="header_banner">
             <img src="resources/img/banner.jpg" alt="banner">
         </div>
-        <div class="button_info">Nguyễn Tiến Cường</div>
+        <div class="button_info">DPV_00001</div>
     </header>
     <div class="button_info-detail button_info-detail-hidden">
         <ul>
-            <li><a href="nvsc.html">NVSC_00001</a></li>
+            <li><a href="index.html">Nguyễn Tiến Cường</a></li>
             <li><a href="nvld.html">NVLD_00001</a></li>
-            <li><a href="dpv.html">DPV_00001</a></li>
+            <li><a href="nvsc.html">NVSC_00001</a></li>
             <li><a href="admin.html">ADMIN</a></li>
         </ul>
     </div>
     <nav>
         <ul>
-            <li><a href="index.html">Trang Chủ</a></li>
-            <li><a href="datlich.html">Đặt lịch sửa chữa</a></li>
-            <li><a href="datlichlapdat.html">Đặt lịch lắp đặt</a></li>
-            <li><a href="xemlich.html">Xem lịch</a></li>
-            <li><a href="thongtintk.html">Thông tin</a></li>
+            <li><a href="dpv.html">Trang Chủ</a></li>
+            <li><a href="capnhatttld.html">Cập nhật TTLĐ</a></li>
+            <li>Tin tức</li>
+            <li><a href="duyetlich.html">Duyệt lịch</a></li>
+            <li><a href="thongtindpv.html">Thông tin</a></li>
         </ul>
     </nav>
     <main>
@@ -42,38 +42,60 @@
             <div id="header_content">
                 <div class="header_name_title_1">
                     <i class="fa-solid fa-house"></i>
-                    <a href="index.html"><span>Trang chủ</span></a> 
+                    <a href="dpv.html"><span>Trang chủ</span></a> 
                 </div>
                 <div class="header_name_title_2">
-                    <span>Xem lịch</span> 
-                </div>>
+                    <span>Cập nhật TTLĐ</span> 
+                </div>
             </div>
             <div class="content-section"></div>
-                <h2 class="section-heading">Lịch Của Tôi</h2>
-                <table>
-                    <tr>
-                      <th>STT</th>
-                      <th>Tên Lịch</th>
-                      <th>Thời gian</th>
-                      <th><img src="resources/img/dauquayxuong.png"></th>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Lịch lắp đặt Tivi</td>
-                      <td>11h30 Ngày 05/05/2023</td>
-                      <td><a href="capnhatlichld.html"><img src="resources/img/logo_update.png"> </a></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Lịch sửa chữa Tivi</td>
-                      <td>17h00 Ngày 06/05/2023</td>
-                      <td><a href="capnhatlichsc.html"><img src="resources/img/logo_update.png"></a></td>
-                    </tr>
-                  </table>
+                <h2 class="section-heading_lich">Thêm thông tin lắp đặt</h2>
+                <div id="content_lich1">
+                    <div id="thanhghi">
+                        Thông tin lắp đặt
+                    </div>
+                </div>
+                <div id="content_lich2">
+                    <div id="thietbi_list1">
+                        <label for="name" id="name_input_lable">Thiết bị </label>
+                        <input list="browsers" name="browser" id="thietbi">
+                        <datalist id="browsers">
+                            <option value="Tivi">
+                            <option value="Đèn điện quang">
+                            <option value="Tụ điện">
+                            <option value="Tủ lạnh">
+                            <option value="Máy giặt">
+                        </datalist>
+                    </div>
+                    <div id="tenthietbi_list1">
+                        <div class="item_image">
+                            <img src="resources/img/logo_congty.png" alt="">
+                        </div>
+                        <div class="item_namethietbi">
+                            Tên thiết bị: Tivi SONY A90K Series <br>
+                            Giá: 30.000.000 VNĐ
+                        </div>
+                    </div>
+                    <div id="gia">
+                        <label for="name" id="name_input_lable">Giá lắp đặt</label>
+                        <input type="text" name="" id="name_input" placeholder="" >
+                    </div>
+                    <div id="mota">
+                        <label for="name" id="name_input_lable">Mô tả công việc</label>
+                        <input type="text" name="" id="name_input" placeholder="" >
+                    </div>
+                    
+                    
+
+                </div>
                 
                 
-                
+                  <div id="button_xnht">
+                    <input type="button" name="" id="bt_xnht" value="Thêm" onclick="alert('Xác nhận thêm ')" >
+                    
+                </div>
             </div>
+            
         </div>
             
         

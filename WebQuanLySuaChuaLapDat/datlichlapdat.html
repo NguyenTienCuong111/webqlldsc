@@ -16,7 +16,7 @@
             <div>Công ty TNHH lắp đặt và sửa chữa Ba Năm</div>
         </div>
         <div class="header_banner">
-            <img src="resources/img/banner.png" alt="banner">
+            <img src="resources/img/banner.jpg" alt="banner">
         </div>
         <div class="button_info">Nguyễn Tiến Cường</div>
     </header>
@@ -24,8 +24,8 @@
         <ul>
             <li><a href="nvsc.html">NVSC_00001</a></li>
             <li><a href="nvld.html">NVLD_00001</a></li>
-            <li><a href="nvld.html">DPV_00001</a></li>
-            <li><a href="nvld.html">ADMIN</a></li>
+            <li><a href="dpv.html">DPV_00001</a></li>
+            <li><a href="admin.html">ADMIN</a></li>
         </ul>
     </div>
     <nav>
@@ -66,9 +66,14 @@
                     <div class="col col-third ">
                         <p class="member-name">SẢN PHẨM</p>
                         <label for="name" id="name_input_lable">Thiết bị </label>
-                        <div  id="input_thietbi" >
-                            <img src="resources/img/dauquayxuong.png" alt=""  >
-                        </div>
+                        <input list="browsers" name="browser" id="input_thietbi">
+                        <datalist id="browsers">
+                            <option value="Tivi">
+                            <option value="Đèn điện quang">
+                            <option value="Tụ điện">
+                            <option value="Tủ lạnh">
+                            <option value="Máy giặt">
+                        </datalist>
                         <div id="tenthietbi">
                             <div class="item_image">
                                 <img src="resources/img/logo_congty.png" alt="">
@@ -84,8 +89,8 @@
                     <div class="clear"></div>
                 </div>
                 <div id="button">
-                    <input type="submit" name="" id="button_huy" value="Hủy">
-                    <input type="submit" name="" id="button_xacnhan" value="Xác nhận">
+                    <input type="button" name="" id="button_huy" value="Hủy" onclick="alert('Xác nhận hủy!')" >
+                    <input type="button" name="" id="button_xacnhan" value="Xác nhận" onclick="alert('Xác nhận thành công!')">
                 </div>
                 
                 

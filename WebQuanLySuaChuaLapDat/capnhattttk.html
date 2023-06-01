@@ -18,24 +18,24 @@
         <div class="header_banner">
             <img src="resources/img/banner.jpg" alt="banner">
         </div>
-        <div class="button_info">NVLD_00001</div>
+        <div class="button_info">ADMIN</div>
     </header>
     <div class="button_info-detail button_info-detail-hidden">
         <ul>
             <li><a href="index.html">Nguyễn Tiến Cường</a></li>
+            <li><a href="nvld.html">NVLD_00001</a></li>
             <li><a href="nvsc.html">NVSC_00001</a></li>
             <li><a href="dpv.html">DPV_00001</a></li>
-            <li><a href="admin.html">ADMIN</a></li>
         
         </ul>
     </div>
     <nav>
         <ul>
-            <li><a href="nvld.html">Trang Chủ</a></li>
-            <li>Dịch vụ</li>
+            <li><a href="admin.html">Trang Chủ ADMIN</a></li>
+            <li><a href="index.html">Quay lại trang web</a></li>
             <li>Tin tức</li>
-            <li><a href="lichcvnvld.html">Xem lịch</a></li>
-            <li><a href="thongtinnvld.html">Thông tin</a></li>
+            <li><a href="lichsuhd.html">Lịch sử hoạt động</a></li>
+            <li><a href="thongtinadmin.html">Thông tin</a></li>
         </ul>
     </nav>
     <main>
@@ -43,20 +43,20 @@
             <div id="header_content">
                 <div class="header_name_title_1">
                     <i class="fa-solid fa-house"></i>
-                    <a href="nvld.html"><span>Trang chủ</span></a> 
+                    <a href="admin.html"><span>ADMIN</span></a> 
                 </div>
                 <div class="header_name_title_2">
-                    <span>Thông tin cá nhân</span> 
+                    <span>Cập nhật tài khoản</span> 
                 </div>>
             </div>
             <div class="thongtinchitiet">
-                <div class="col_tong">
+                <div class="col_tong_tttk">
                     <p class="member-name">THÔNG TIN CHI TIẾT </p>
                     <div id="list1">
                         <img src="https://shareviet.net/wp-content/uploads/2022/06/vector-chibi-tho-sua-chua.jpg" alt="">
                         <div id="thongtin1">  
                             <label for="name" id="madinhdanh_label">Mã định danh<i style="color: red;">*</i>  </label>
-                            <input type="text" name="" id="madinhdanh_input" placeholder="" value="NVLD00001">
+                            <input type="text" name="" id="madinhdanh_input" placeholder="" value="DPV00001">
                         </div>
                         <div id="thongtin2">   
                             <label for="name" id="hovaten_label">Họ và tên<i style="color: red;">*</i> </label>
@@ -79,9 +79,20 @@
                         <label for="name" id="name_input_lable">Địa chỉ<i style="color: red;">*</i> </label>
                         <input type="text" name="" id="name_input" value="64 Hòa Bình 5 P.Hòa Quý Q.Ngũ Hành Sơn TP.Đà Nẵng">
                     </div>
+                    <div id="list4">
+                        <label for="name" id="name_input_lable">Loại tài khoản<i style="color: red;">*</i></label>
+                        <input list="browsers" name="browser" id="loaitaikhoan" style="height: 25px; width: 250px;">
+                        <datalist id="browsers">
+                            <option value="Khách hàng">
+                            <option value="Nhân viên lắp đặt">
+                            <option value="Nhân viên sửa chữa">
+                            <option value="Điều phối viên">
+                            <option value="ADMIN">
+                        </datalist>
+                    </div>
                     <div id="button_capnhat">
+                        <input type="button" name="" id="bt_xoa" value="Xóa" onclick="alert('Xóa thành công ')">
                         <input type="button" name="" id="bt_capnhat" value="Cập nhật" onclick="alert('Cập nhật thành công ')">
-                        <a href="doimatkhau.html"><input type="button" name="" id="bt_doimatkhau_ttcn" value="Đổi mật khẩu">
                     </div>
                 </div>
                 

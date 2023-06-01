@@ -18,23 +18,23 @@
         <div class="header_banner">
             <img src="resources/img/banner.jpg" alt="banner">
         </div>
-        <div class="button_info">NVSC_00001</div>
+        <div class="button_info">DPV_00001</div>
     </header>
     <div class="button_info-detail button_info-detail-hidden">
         <ul>
             <li><a href="index.html">Nguyễn Tiến Cường</a></li>
             <li><a href="nvld.html">NVLD_00001</a></li>
-            <li><a href="dpv.html">DPV_00001</a></li>
+            <li><a href="nvsc.html">NVSC_00001</a></li>
             <li><a href="admin.html">ADMIN</a></li>
         </ul>
     </div>
     <nav>
         <ul>
-            <li><a href="nvsc.html">Trang Chủ</a></li>
-            <li>Dịch vụ</li>
+            <li><a href="dpv.html">Trang Chủ</a></li>
+            <li><a href="capnhatttld.html">Cập nhật TTLĐ</a></li>
             <li>Tin tức</li>
-            <li><a href="lichcv.html">Xem lịch</a></li>
-            <li><a href="thongtinnvsc.html">Thông tin</a></li>
+            <li><a href="duyetlich.html">Duyệt lịch</a></li>
+            <li><a href="thongtindpv.html">Thông tin</a></li>
         </ul>
     </nav>
     <main>
@@ -42,41 +42,47 @@
             <div id="header_content">
                 <div class="header_name_title_1">
                     <i class="fa-solid fa-house"></i>
-                    <a href="nvsc.html"><span>Trang chủ</span></a> 
+                    <a href="dpv.html"><span>Trang chủ</span></a> 
                 </div>
                 <div class="header_name_title_2">
-                    <span>Xem lịch</span> 
+                    <a href="duyetlich.html"><span>Duyệt lịch</span></a> 
+                </div>
+                <div class="header_name_title_2">
+                    <span>Phân công</span> 
                 </div>
             </div>
             <div class="content-section"></div>
-                <h2 class="section-heading_lich">Lịch làm việc</h2>
+                <h2 class="section-heading_lich">Danh sách nhân viên</h2>
                 <div id="content_lich1">
                     <div id="thanhghi">
                         Nhân viên sửa chữa
+                    </div>
+                    <div id="thanhghi1">
+                        Nhân viên lắp đặt
                     </div>
                 </div>
                 <div id="content_lich2">
                     <div id="list_lich1">
                         <div id="content_lich">
-                            <p >Mã công việc: CV00001<br>Tên công việc: Sửa chữa TiVi<br>Trạng thái:  <i style="color: red;">Hoàn thành</i></p>
+                            <p >Mã nhân viên: NV00001<br>Tên nhân viên: Nguyễn Tiến Cường<br>Trạng thái:  <i style="color: red;">Đang bận</i></p>
                         </div>
                         <div id="checkbox">
-                            <input type="checkbox" id="scales" name="scales" checked style="height: 50px; width: 90px;">
+                            <input type="checkbox" id="scales" name="scales" checked disabled style="height: 50px; width: 90px;">
                             
                         </div>
                     </div>
                     <div id="list_lich2">
                         <div id="content_lich">
-                            <p >Mã công việc: CV00002<br>Tên công việc: Sửa chữa tụ điện<br>Trạng thái:  <i style="color: red;">Hoàn thành</i></p>
+                            <p >Mã nhân viên: NV00002<br>Tên nhân viên: Nguyễn Tiến Kiên<br>Trạng thái:  <i style="color: red;">Đang bận</i></p>
                         </div>
                         <div id="checkbox">
-                            <input type="checkbox" id="scales" name="scales" checked style="height: 50px; width: 90px;">
+                            <input type="checkbox" id="scales" name="scales" checked  disabled style="height: 50px; width: 90px;">
                             
                         </div>
                     </div>
                     <div id="list_lich3">
                         <div id="content_lich">
-                            <p >Mã công việc: CV00003<br>Tên công việc: Sửa chữa đèn điện quang<br>Trạng thái:  <i style="color: red;">Đang sửa</i></p>
+                            <p >Mã nhân viên: NV00003<br>Tên nhân viên: Nguyễn Văn Hiếu<br>Trạng thái:  <i style="color: red;">Trống</i></p>
                         </div>
                         <div id="checkbox">
                             <input type="checkbox" id="scales" name="scales"  style="height: 50px; width: 90px;" >
@@ -85,7 +91,7 @@
                     </div>
                     <div id="list_lich4">
                         <div id="content_lich">
-                            <p >Mã công việc: CV00004<br>Tên công việc: Sửa chữa TiVi<br>Trạng thái:  <i style="color: red;">Đang sửa</i></p>
+                            <p >Mã nhân viên: NV00004<br>Tên nhân viên: Nguyễn Quốc Huy<br>Trạng thái:  <i style="color: red;">Trống</i></p>
                         </div>
                         <div id="checkbox">
                             <input type="checkbox" id="scales" name="scales" style="height: 50px; width: 90px;">
@@ -105,7 +111,7 @@
                     <a href="#">&raquo;</a>
                   </div>
                   <div id="button_xnht">
-                    <input type="button" name="" id="bt_xnht" value="Xác nhận hoàn thành" onclick="alert('Xác nhận thành công')">
+                    <input type="submit" name="" id="bt_xnht" value="Phân công" onclick="alert('Phân công thành công ')">
                     
                 </div>
             </div>
